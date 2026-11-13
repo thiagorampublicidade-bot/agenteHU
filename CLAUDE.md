@@ -11,6 +11,7 @@ Instruções permanentes do agente. Leia este arquivo inteiro antes de qualquer 
   - `dia-nacional-da-saude-bucal.pptx`
   - `dia-mundial-e-nacional-da-saude-unica.pdf`
   - `capas/capa-ciencia-e-cultura.webp` e `capas/capa-estresse-cronico.webp` — exemplos de capa
+  - `aprovados/dia-mundial-do-diabetes/` — **padrão visual aprovado pelo cliente** (ver seção abaixo)
 - `briefings/` — planilhas Excel com o conteúdo de cada carrossel (fonte do texto e da distribuição por página).
 - `marcas/` (quando existir) — arquivos oficiais de logotipos e assinaturas institucionais. Nunca redesenhar nem gerar marcas por IA.
 
@@ -21,6 +22,38 @@ Pré-requisito: o conector do **Canva** precisa estar conectado à sessão (clau
 - **Textos da planilha:** são aprovados pelo cliente. Use-os exatamente como estão, sem sinalizar nem sugerir revisões de conteúdo.
 - **Cards "Fala especialista":** não produza o conteúdo. O cliente enviará as falas depois. Mantenha o card na ordem do carrossel apenas com o título que estiver na planilha e uma área de texto vazia reservada para a fala.
 - **Assinatura institucional:** composição da marca padrão (SUS · HU Brasil · Ministério da Educação · Governo do Brasil "Do lado do povo brasileiro"), montada com os arquivos de `marcas/`.
+
+## Padrão visual aprovado (carrosséis de datas HU Brasil)
+
+Referência principal: `referencias/aprovados/dia-mundial-do-diabetes/` — versão ajustada manualmente pelo usuário e aprovada como o resultado desejado. Este padrão tem prioridade sobre as direções das referências antigas da seção 5. Siga-o em todos os carrosséis de datas da planilha, adaptando ilustrações e cores de destaque ao tema.
+
+**Base de produção no Canva:** a API de edição não permite escolher a família tipográfica de textos novos. Para manter as fontes aprovadas, crie cada novo carrossel com uma **cópia do projeto aprovado** "HU Brasil — Dia Mundial do Diabetes — Carrossel" (design `DAHa0IUN3n8`) e reaproveite as caixas de texto existentes (`replace_text`), em vez de gerar um layout novo por IA. Leia o design antes, porque o usuário pode tê-lo ajustado.
+
+**Fundo e atmosfera**
+- Páginas de conteúdo: fotografia de ambiente hospitalar muito desfocada em azul-claro/branco (≈ #D0DEE9 a #EFF3F6), com leve granulação. Sem blocos sólidos, molduras, linhas de circuito ou ornamentos gerados por IA.
+- CTA: fundo azul-acinzentado liso em degradê suave (≈ #B5CEDC no topo a #7B9FBE embaixo), com nuvens 3D discretas nos cantos.
+
+**Tipografia e cor**
+- Cor de texto única: azul-marinho ≈ #14417B.
+- Títulos: serifa grossa tipo slab (peso extra), grande (~100–130 px), alinhada à esquerda. Grafia normal, só com a primeira letra maiúscula, sem dois-pontos no fim ("O que é?", "Principais sintomas", "Tratamento"), e não em CAIXA-ALTA.
+- Acima do título, um traço curto e grosso azul-marinho (~115 × 8 px) alinhado à margem esquerda (~78 px).
+- Corpo: sem serifa geométrica (estilo Montserrat), em negrito ou seminegrito, ~38–40 px. Quando o parágrafo é longo, crie hierarquia dentro do próprio texto: a primeira oração em negrito maior e o restante em peso regular menor, sem alterar as palavras.
+- CTA: título centralizado em sem serifa negrito; o nome de cada serviço (ex.: "Unidade Básica de Saúde (UBS)") vem como subtítulo em negrito, e a descrição em peso regular logo abaixo, tudo centralizado.
+
+**Capa**
+- Composição centralizada: linha pequena em peso leve ("Dia Mundial do"), palavra-tema enorme na serifa slab ("Diabetes") e subtítulo centralizado em peso médio.
+- Ilustração 3D grande e centralizada sobre um círculo amarelo (≈ #F5C842) que encosta na faixa de assinatura.
+- Indicação de "arraste" com ícone de mão e seta curva em traço, no canto inferior direito, no lugar de seta em círculo.
+- Faixa branca com a assinatura institucional no rodapé.
+
+**Páginas internas**
+- Título no alto à esquerda e texto logo abaixo. A ilustração fica no canto inferior direito, sobre uma forma orgânica (blob) azul-acinzentada translúcida (≈ #B4CDDB).
+- Listas: faixas arredondadas cinza-azuladas translúcidas (≈ #C8CFD8), com o número grande na serifa slab, sem círculo, e o item em sem serifa seminegrito.
+- Sem assinatura institucional nas páginas internas: ela aparece só na capa e no CTA.
+
+**CTA (UBS/UPA)**
+- Ilustração do serviço de saúde centralizada e um cartão azul-marinho arredondado com texto branco, sobreposto à base da ilustração, mais a faixa de assinatura.
+- Não gerar por IA ilustrações que contenham logotipos (ex.: marca do SUS). Se a marca precisar aparecer, use o arquivo oficial de `marcas/` como elemento separado.
 
 ---
 
