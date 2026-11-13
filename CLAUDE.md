@@ -35,24 +35,27 @@ Referência principal: `referencias/aprovados/dia-mundial-do-diabetes/` — vers
 
 **Tipografia e cor**
 - Cor de texto única: azul-marinho ≈ #14417B.
-- Títulos: serifa grossa tipo slab (peso extra), grande (~100–130 px), alinhada à esquerda. Grafia normal, só com a primeira letra maiúscula, sem dois-pontos no fim ("O que é?", "Principais sintomas", "Tratamento"), e não em CAIXA-ALTA.
+- **Família padrão: Montserrat Arabic** (o usuário escreve "Montaser Arabic") em todo o carrossel, com variação de peso para criar hierarquia (pesos extra/negrito nos títulos, médio/regular no corpo).
+- **Títulos:** por padrão Montserrat Arabic em peso forte. A fonte dos títulos pode mudar quando o carrossel tiver uma ideia visual específica (ex.: a serifa slab do carrossel de diabetes). Nesse caso, escolha uma fonte que combine com o conceito e explique a escolha na entrega. Tamanho grande (~100–130 px), alinhado à esquerda.
+- **Grafia dos títulos:** só a primeira letra maiúscula, sem dois-pontos no fim ("O que é?", "Principais sintomas", "Tratamento"), nunca em CAIXA-ALTA, mesmo que a planilha traga o título em maiúsculas.
 - Acima do título, um traço curto e grosso azul-marinho (~115 × 8 px) alinhado à margem esquerda (~78 px).
-- Corpo: sem serifa geométrica (estilo Montserrat), em negrito ou seminegrito, ~38–40 px. Quando o parágrafo é longo, crie hierarquia dentro do próprio texto: a primeira oração em negrito maior e o restante em peso regular menor, sem alterar as palavras.
+- Corpo: Montserrat Arabic, em negrito ou seminegrito, ~38–40 px. Quando o parágrafo é longo, crie hierarquia dentro do próprio texto: a primeira oração em negrito maior e o restante em peso regular menor, sem alterar as palavras.
 - CTA: título centralizado em sem serifa negrito; o nome de cada serviço (ex.: "Unidade Básica de Saúde (UBS)") vem como subtítulo em negrito, e a descrição em peso regular logo abaixo, tudo centralizado.
 
 **Capa**
-- Composição centralizada: linha pequena em peso leve ("Dia Mundial do"), palavra-tema enorme na serifa slab ("Diabetes") e subtítulo centralizado em peso médio.
+- Composição centralizada: linha pequena em peso leve ("Dia Mundial do"), palavra-tema enorme na fonte de título ("Diabetes") e subtítulo centralizado em peso médio.
 - Ilustração 3D grande e centralizada sobre um círculo amarelo (≈ #F5C842) que encosta na faixa de assinatura.
 - Indicação de "arraste" com ícone de mão e seta curva em traço, no canto inferior direito, no lugar de seta em círculo.
 - Faixa branca com a assinatura institucional no rodapé.
 
 **Páginas internas**
 - Título no alto à esquerda e texto logo abaixo. A ilustração fica no canto inferior direito, sobre uma forma orgânica (blob) azul-acinzentada translúcida (≈ #B4CDDB).
-- Listas: faixas arredondadas cinza-azuladas translúcidas (≈ #C8CFD8), com o número grande na serifa slab, sem círculo, e o item em sem serifa seminegrito.
+- Listas: faixas arredondadas cinza-azuladas translúcidas (≈ #C8CFD8), com o número grande na fonte de título, sem círculo, e o item em sem serifa seminegrito.
 - Sem assinatura institucional nas páginas internas: ela aparece só na capa e no CTA.
 
 **CTA (UBS/UPA)**
-- Ilustração do serviço de saúde centralizada e um cartão azul-marinho arredondado com texto branco, sobreposto à base da ilustração, mais a faixa de assinatura.
+- Imagem centralizada e um cartão azul-marinho arredondado com texto branco, sobreposto à base da imagem, mais a faixa de assinatura.
+- **Imagem do CTA varia caso a caso.** Quando representar o hospital ou a unidade de saúde, use a **imagem oficial** fornecida pelo usuário (prédio da unidade com a marca do SUS), nunca uma versão gerada por IA. Se esse arquivo não estiver no repositório, peça ao usuário. Em outros casos, a imagem pode ser de médicos, pacientes ou objetos, escolhida conforme o tema.
 - Não gerar por IA ilustrações que contenham logotipos (ex.: marca do SUS). Se a marca precisar aparecer, use o arquivo oficial de `marcas/` como elemento separado.
 
 ---
