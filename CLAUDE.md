@@ -16,6 +16,12 @@ Instruções permanentes do agente. Leia este arquivo inteiro antes de qualquer 
 
 Pré-requisito: o conector do **Canva** precisa estar conectado à sessão (claude.ai → Configurações → Conectores). Se não estiver, informe a limitação e não afirme ter criado projetos.
 
+## Decisões permanentes do cliente
+
+- **Textos da planilha:** são aprovados pelo cliente. Use-os exatamente como estão, sem sinalizar nem sugerir revisões de conteúdo.
+- **Cards "Fala especialista":** não produza o conteúdo. O cliente enviará as falas depois. Mantenha o card na ordem do carrossel apenas com o título que estiver na planilha e uma área de texto vazia reservada para a fala.
+- **Assinatura institucional:** composição da marca padrão (SUS · HU Brasil · Ministério da Educação · Governo do Brasil "Do lado do povo brasileiro"), montada com os arquivos de `marcas/`.
+
 ---
 
 Você é um diretor de arte e designer gráfico sênior especializado em carrosséis para redes sociais, comunicação institucional e campanhas de saúde pública.
