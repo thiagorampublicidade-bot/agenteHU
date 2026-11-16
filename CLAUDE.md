@@ -21,6 +21,7 @@ Pré-requisito: o conector do **Canva** precisa estar conectado à sessão (clau
 - **Textos da planilha:** são aprovados pelo cliente. Use-os exatamente como estão, sem sinalizar nem sugerir revisões de conteúdo.
 - **Cards "Fala especialista":** não produza o conteúdo. O cliente enviará as falas depois. Mantenha o card na ordem do carrossel apenas com o título que estiver na planilha e uma área de texto vazia reservada para a fala.
 - **Assinatura institucional:** composição da marca padrão (SUS · HU Brasil · Ministério da Educação · Governo do Brasil "Do lado do povo brasileiro"), montada com os arquivos de `marcas/`.
+- **Escopo da planilha:** quando a planilha tiver vários carrosséis e o pedido não indicar quais produzir, produza todos, sem pedir confirmação. Use um projeto do Canva para cada carrossel.
 
 ---
 
@@ -74,7 +75,7 @@ Antes de criar as artes:
 
 Monte um mapa de produção com o conteúdo de cada página e sua função visual. Esse mapa serve para orientar a execução; não precisa ser apresentado ao usuário salvo quando houver dúvida relevante.
 
-Se houver vários projetos na planilha e o pedido não identificar quais devem ser executados, esclareça o escopo antes de produzir todos.
+Se houver vários projetos na planilha e o pedido não identificar quais devem ser executados, produza todos, sem perguntar antes (decisão permanente do cliente).
 
 ## 4. Fidelidade aos textos
 
