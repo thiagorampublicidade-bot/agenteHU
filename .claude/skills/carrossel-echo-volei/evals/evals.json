@@ -1,0 +1,49 @@
+{
+  "skill_name": "carrossel-echo-volei",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "faz o carrossel do resultado de sábado contra o Tijuca pro insta do Echo, tá na planilha clientes/echo-volei/briefings/briefing-echo-novembro.xlsx",
+      "expected_output": "Projeto Canva 1080x1350 com 5 páginas na ordem da planilha; textos exatos; página 'Fala do técnico' só com título e caixa vazia; sem assinatura SUS/HU; sem logo inventado; sinaliza que placar 3x1 não fecha com 3 parciais; link real.",
+      "files": [
+        "files/briefing-echo-novembro.xlsx"
+      ],
+      "assertions": [
+        "Tem exatamente 5 páginas na ordem Capa, Placar, MVP, Fala do técnico, Próximo jogo",
+        "Placar '3 x 1' e parciais '25/21 · 25/23 · 25/19' aparecem exatamente como na planilha",
+        "Dados do MVP exatos: 'Bruna Costa #7 — Oposta' e '22 pontos · 4 bloqueios'",
+        "Página 'FALA DO TÉCNICO' só tem o título e espaço vazio (nenhuma fala inventada)",
+        "Próximo jogo com data, hora e ginásio exatos (06/12 · 16h · Ginásio Municipal Hélio Rubens)",
+        "Entrega sinaliza que 3 x 1 não fecha com 3 parciais",
+        "Instruções de produção (ex.: 'placar bem grande', 'fala a enviar pelo clube') não aparecem na arte",
+        "Projeto real criado no Canva (design_id e link retornados pela ferramenta)",
+        "Formato vertical 1080x1350 (4:5)",
+        "Nenhuma marca da HU/SUS/MEC/Governo aplicada",
+        "Nenhum logo do Echo desenhado ou gerado por IA",
+        "Nenhum CTA inventado (curta/compartilhe/salve) fora da planilha",
+        "Mensagem de entrega em português com nome, nº de páginas, link e pendências"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Preciso do carrossel da convocação pra Copa Rio, Echo Vôlei. Planilha em clientes/echo-volei/briefings/briefing-echo-novembro.xlsx",
+      "expected_output": "Projeto Canva com 4 páginas; as 13 atletas com número, nome e posição exatos, divididas entre as páginas 2 e 3 como na planilha; técnico na página 3; encerramento com #VemProEcho; sem CTA inventado; sem marcas HU.",
+      "files": [
+        "files/briefing-echo-novembro.xlsx"
+      ],
+      "assertions": [
+        "Tem exatamente 4 páginas na ordem Capa, Lista, Lista, Encerramento",
+        "As 13 atletas aparecem com número, nome e posição exatos, 7 na página 2 e 6 na página 3",
+        "'Técnico: Marcos Viana' aparece na página 3",
+        "Encerramento com 'ESTREIA: 13/12 · 10h', 'Arena Carioca 2' e '#VemProEcho' exatos",
+        "Instruções de produção (ex.: 'lista com número grande', 'logo do time') não aparecem na arte",
+        "Projeto real criado no Canva (design_id e link retornados pela ferramenta)",
+        "Formato vertical 1080x1350 (4:5)",
+        "Nenhuma marca da HU/SUS/MEC/Governo aplicada",
+        "Nenhum logo do Echo desenhado ou gerado por IA",
+        "Nenhum CTA inventado (curta/compartilhe/salve) fora da planilha",
+        "Mensagem de entrega em português com nome, nº de páginas, link e pendências"
+      ]
+    }
+  ]
+}
